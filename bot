@@ -7,31 +7,21 @@
   
   "commands": [
     {
-      "command": "say Привет всем!",
-      "description": "Отправить приветственное сообщение в чат"
-    },
-    {
-      "command": "time",
-      "description": "Показать текущее игровое время"
-    },
-    {
-      "command": "weather clear",
-      "description": "Установить ясную погоду"
-    },
-    {
-      "command": "broadcast Следующее событие через 5 минут",
-      "description": "Объявить о предстоящем событии"
-    },
-    {
-      "command": "give @all apple 5",
-      "description": "Раздать всем игрокам по 5 яблок"
+      "command": "nametag set KirilL2ie [ГА]KirilL2ie",
+      "description": "обнавления должности KirilL2ie"
     }
+  ],
+  
+  "game_announcements": [
+    "тест1",
+    "Тест2"
   ],
   
   "settings": {
     "command_interval": 60,
     "jump_interval": 60,
-    "total_wait_time": 600
+    "total_wait_time": 600,
+    "announcement_interval": 300
   },
   
   "embed_templates": {
