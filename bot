@@ -1,49 +1,5 @@
 {
-  "server_info": {
-    "name": "Новая Заря RP",
-    "join_link": "https://www.roblox.com/games/start?placeId=7711635737&launchData=joinCode%3Dejgexhxx",
-    "description": "Добро пожаловать на наш сервер! Присоединяйтесь к нам для увлекательной игры."
-  },
-  
   "commands": [
-    {
-      "command": "nametag set KirilL2ie [ГА]KirilL2ie",
-      "description": "Выполняем команду: nametag set KirilL2ie [ГА]KirilL2ie"
-    }
-  ],
-  
-  "game_announcements": [
-    "test1",
-    "test2"
-  ],
-  
-  "settings": {
-    "command_interval": 60,
-    "jump_interval": 60,
-    "total_wait_time": 600,
-    "announcement_interval": 300
-  },
-  
-  "embed_templates": {
-    "server_status": {
-      "title": "🌄 Новая Заря RP — добро пожаловать!",
-      "description": "**Игроков онлайн:** {players_online}\n**Код:** `q1i18q3p`\n**Заходи и играй!**",
-      "color": 16753115
-    },
-    "error_parsing": {
-      "title": "⚠️ Ошибка разбора",
-      "description": "Не найдено чисел:\n```{copied_text}```",
-      "color": 16711680
-    },
-    "error_copy": {
-      "title": "⚠️ Ошибка копирования",
-      "description": "Буфер обмена пуст.",
-      "color": 16711680
-    },
-    "full_text": {
-      "title": "📋 Полный скопированный текст",
-      "description": "```{copied_text}```",
-      "color": 11184810
-    }
-  }
+    "nametag set KirilL2ie [ГА]KirilL2ie"
+  ]
 }
